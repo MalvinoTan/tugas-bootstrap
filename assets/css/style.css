@@ -4,10 +4,8 @@
 }
 
 nav {
-  background: white;
   padding: 17px 0 !important;
   box-shadow: 1px 1px 4px #c9c1c1;
-  text-align: center;
 }
 
 nav h1 {
@@ -144,14 +142,13 @@ footer {
 }
 
 footer .footer-first {
+  color: white;
   padding: 0 20px;
 }
 
 footer .footer-left h4 {
-  color: white;
   font-family: "Philosopher", sans-serif;
   font-size: 24px;
-  height: 100%;
   letter-spacing: 0.2em;
   padding-bottom: 5px;
 }
@@ -163,7 +160,6 @@ footer .footer-left p {
 }
 
 footer .footer-item h4 {
-  color: white;
   padding-bottom: 20px;
 }
 
@@ -175,7 +171,6 @@ footer .footer-item ul li a {
 }
 
 footer .copyright {
-  background: white;
   margin-top: 50px;
   padding: 25px;
 }
@@ -191,10 +186,4 @@ footer .copyright p {
 footer .copyright p a {
   color: #71c55d;
   text-decoration: none;
-}
-
-@media (max-width: 767px) {
-  #phone-section {
-    text-align: center;
-  }
 }
