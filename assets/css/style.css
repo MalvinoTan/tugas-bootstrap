@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background: white;
   padding: 17px 0 !important;
@@ -12,7 +17,6 @@ nav h1 {
 }
 
 nav h1 a {
-  display: inline-block;
   color: #555555;
   text-decoration: none;
 }
@@ -107,7 +111,7 @@ p {
 }
 
 #phone-section img {
-  max-width: 100%;
+  width: 100%;
 }
 
 #phone-section .text-content {
@@ -124,11 +128,6 @@ p {
 
 #phone-section .text-content span {
   font-weight: 700;
-}
-
-#phone-section .text-content ul {
-  list-style-type: none;
-  padding: 0;
 }
 
 #phone-section .text-content ul li {
@@ -148,13 +147,13 @@ footer .footer-first {
   padding: 0 20px;
 }
 
-footer .navbar-brand {
+footer .footer-left h4 {
   color: white;
-  display: inline-block;
   font-family: "Philosopher", sans-serif;
   font-size: 24px;
   height: 100%;
   letter-spacing: 0.2em;
+  padding-bottom: 5px;
 }
 
 footer .footer-left p {
@@ -173,13 +172,11 @@ footer .footer-item ul li a {
   font-size: 12px;
   padding-left: 5px;
   text-decoration: none;
-  letter-spacing: 0;
 }
 
 footer .copyright {
   background: white;
   margin-top: 50px;
-  text-align: center;
   padding: 25px;
 }
 
@@ -189,11 +186,9 @@ footer .copyright p {
   padding: 0;
   font-weight: normal;
   font-size: 14px;
-  letter-spacing: 0;
 }
 
 footer .copyright p a {
-  letter-spacing: 0;
   color: #71c55d;
   text-decoration: none;
 }
@@ -203,4 +198,3 @@ footer .copyright p a {
     text-align: center;
   }
 }
-
